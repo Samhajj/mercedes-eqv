@@ -101,46 +101,91 @@ Stromverbrauch kombiniert: 27,1–26,3 kWh/100 km; CO₂-Emissionen kombiniert: 
 <section id="charging-eqv">
   <div class="charging-container">
     <div class="charging-title">
-      <p>Charging and range.</p>
+      <h3>Charging and range.</h3>
     </div>
-    <div class="charging-image-carousel"></div>
-    <div class="carousel-button">
-      <div></div>
-      <div></div>
-      <div></div>
+    <div class="charging-media-carousel" id="charging-media-carousel">
+      <div id="carousel-media-1">
+        <div class="carousel-media-1 carousel-media">
+          <img src="/Images/02-eqv-by-mercedes-eq-br447-1280x720.jpg" alt="">
+        </div>
+      <div class="carousel-media1-text carousel-media-text ">
+        <p>When it comes to charging options, the EQV’s flexibility is sure to impress you: at home using the Mercedes-Benz wallbox or a regular household socket, and along your route using public charging stations.</p>
+      </div>
+      </div>
+      <div id="carousel-media-2">
+        <div class="carousel-media2-image carousel-media">
+          <img src="/Images/03-eqv-by-mercedes-eq-br447-1280x720.jpg" alt="">
+        </div>
+      <div class="carousel-media2-text carousel-media-text">
+        <p>45 minutes from 10 to 80% at a DC fast-charging station with up to 110 kW. And thanks to Mercedes me Charge, the charging process becomes something of a relaxing break.</p>
+
+        <span class="sub-text sub-text1">1. Minimum charging time from 10 to 80% in optimum conditions at DC charging station with supply voltage 400 volts, current 300 amps; the charging time may differ dependant on different factors such as outside temperature, battery temperature and usage of electricity consumers such as heating.</span>
+        <span class="sub-text" >2. Maximum charging power at DC charging station with supply voltage 400 volts, current 300 amps; the maximum charging power is dependent on different factors, such as outside temperature, battery temperature and the battery‘s state of charge when charging is initiated.</span>
+      </div>
+      </div>
+      <div id="carousel-media-3">
+           <div class="carousel-media3-image carousel-media">
+          <img src="/Images/04-eqv-by-mercedes-eq-br447-1280x720.jpg" alt="">
+        </div>
+      <div class="carousel-media3-text carousel-media-text">
+        <p>Electric Intelligence brings together charging, optimised route planning, driving comfort and efficient driving. Thanks to recuperation, a range of drive programmes, intelligent navigation with charging stops or pre-entry climate control, you are always up-to-date and in control of the available range.</p>
+      </div>
+      </div>
+      </div>
+  
+  </div>
+  <div class="carousel-buttons">
+  <a href="#carousel-media-1" class="btn btn1" onclick="click()"></a>
+   <a  href="#carousel-media-2" class="btn btn2" onclick="click()"></a>
+  <a href="#carousel-media-3" class="btn btn3" onclick="btn()"></a>
+</div>
+</section>
+
+<section id="quote">
+  <div class="qoute-container">
+    <div class="quote-heading">
+      <h3>Dares to be different, while ramaining attractive.</h3>
+    </div>
+    <div class="quote-text">
+      <p>Refined design with EQ-specific elements – the first glance tells all: the EQV follows the Mercedes-Benz design idiom.</p>
     </div>
   </div>
 </section>
-    <script>
-      //   const header = document.querySelector("#header");
-      // window.onscroll = function () {
-      //   const top = window.scrollY;
-      //   if (top >= 10) {
-      //     header.classList.add("active");
-      //   } else {
-      //     header.classList.remove("active");
-      //   }
-      // };
+<section id="design-expression">
+  <div id="design-expression-carousel-container">
+      <div id="design-expression-carousel-1">
+           <div class="express-image design-expression-image">
+          <img src="/Images/mercedes-benz-eqv-design-2560x1120.jpg" alt="">
+        </div>
+          <div class="express-heading">
+        <h4>Expressive.</h4>
+      </div>
+      <div class="express-text">
+        <p>Design elements created especially for the EQ family – for example the black panel radiator grille – lend the EQV an electrifying, progressive character. You can personalise the design further if desired: for example with the AVANTGARDE Line equipment package, the EQV Exterior Design Package and attractive light-alloy wheels.</p>
+<span class="express-subtext">EQV 300: Stromverbrauch kombiniert: 27,1–26,3 kWh/100 kmCO₂-Emissionen kombiniert: 0 g/km⁶</span>
 
-         const head = document.querySelector("#header-page-language-buttons");
-      window.onscroll = function () {
-        const top = window.scrollY;
-        if (top >= 10) {
-          header.classList.add("active");
-        } else {
-          header.classList.remove("active");
-        }
-      };
+      </div>
+      </div>
 
-      //   const head = document.querySelector("#header-page-language-buttons");
-      // window.onscroll = function () {
-      //   const top = window.scrollY;
-      //   if (top >= 10) {
-      //     header.classList.add("active");
-      //   } else {
-      //     header.classList.remove("active");
-      //   }
-      // };
+       <div id="design-expression-carousel-2">
+           <div class="express-image design-expression-image-2">
+          <img src="/Images/06-mercedes-benz-eqv-design-interieur-2560x1120.jpg" alt="">
+        </div>
+          <div class="express-heading express-heading-2">
+        <h4>Space for well-being.</h4>
+      </div>
+      <div class="express-text express-text2">
+        <p>The modern interior with its very own EQ aesthetics is exemplary among people carriers, both in terms of its ergonomics and its high value appeal. This can be seen, for example, in the new MBUX multimedia system which offers a 10.25" media display with high-quality glass surface, as well as in the attractive design of the air vents and the generously sized trim elements.</p>
+      </div>
+      </div>
+  </div>
+    <div class="carousel2-buttons">
+  <a href="#design-expression-carousel-1" class="express-btn btn1" onclick="click()"></a>
+   <a  href="#design-expression-carousel-2" class="express-btn2" onclick="click()"></a>
+</div>
+</section>
+    <script src="script.js">
+
     </script>
   </body>
 </html>
